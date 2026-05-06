@@ -1652,6 +1652,18 @@
 									"caster": "All"
 								}
 							]
+						},
+						{
+							"name": "Skin - Accelerated Edge - Projectile",
+							"guids": [
+								"Zrr8Q71REr1EKNofs+5kKQ=="
+							],
+							"behaviors": [
+								{
+									"type": "Hide",
+									"caster": "All"
+								}
+							]
 						}
 					]
 				},
@@ -2054,6 +2066,7 @@
 						},
 						{
 							"name": "Misc - Finished Story (Story Marker)",
+							"description": "If this is hidden, the green story marker is hidden as well.",
 							"guids": [
 								"KIN9SauphJpFNwtEn1jJXA=="
 							],
@@ -4752,7 +4765,7 @@
 													"behaviors": [
 														{
 															"type": "Hide",
-															"caster": "All"
+															"caster": "Others"
 														}
 													]
 												}
@@ -4874,7 +4887,7 @@
 													],
 													"behaviors": [
 														{
-															"type": "Hide",
+															"type": "Show",
 															"caster": "All"
 														}
 													]
@@ -5221,7 +5234,7 @@
 													],
 													"behaviors": [
 														{
-															"type": "Hide",
+															"type": "Show",
 															"caster": "All"
 														}
 													]
@@ -18633,7 +18646,7 @@
 													],
 													"behaviors": [
 														{
-															"type": "Hide",
+															"type": "Show",
 															"caster": "All"
 														}
 													]
@@ -18645,7 +18658,7 @@
 													],
 													"behaviors": [
 														{
-															"type": "Hide",
+															"type": "Show",
 															"caster": "All"
 														}
 													]
@@ -18657,7 +18670,7 @@
 													],
 													"behaviors": [
 														{
-															"type": "Hide",
+															"type": "Show",
 															"caster": "All"
 														}
 													]
@@ -18693,7 +18706,7 @@
 													],
 													"behaviors": [
 														{
-															"type": "Hide",
+															"type": "Show",
 															"caster": "All"
 														}
 													]
@@ -18705,7 +18718,7 @@
 													],
 													"behaviors": [
 														{
-															"type": "Hide",
+															"type": "Show",
 															"caster": "All"
 														}
 													]
@@ -18787,7 +18800,7 @@
 													],
 													"behaviors": [
 														{
-															"type": "Hide",
+															"type": "Show",
 															"caster": "All"
 														}
 													]
@@ -24829,7 +24842,7 @@
 													],
 													"behaviors": [
 														{
-															"type": "Hide",
+															"type": "Show",
 															"caster": "All"
 														}
 													]
@@ -24854,7 +24867,7 @@
 													],
 													"behaviors": [
 														{
-															"type": "Hide",
+															"type": "Show",
 															"caster": "All"
 														}
 													]
@@ -26064,6 +26077,18 @@
 													"name": "M Deception - False Oasiss|Crystal Sands - Mirror",
 													"guids": [
 														"pHexQ6Irqb5BAPfP+Haq2g=="
+													],
+													"behaviors": [
+														{
+															"type": "Hide",
+															"caster": "All"
+														}
+													]
+												},
+												{
+													"name": "M Deception - Illusionary Ambush - Illusion Staff Projectile",
+													"guids": [
+														"Ixu3JvyZarJBWPLf1m6PPA=="
 													],
 													"behaviors": [
 														{
@@ -29350,7 +29375,7 @@
 													],
 													"behaviors": [
 														{
-															"type": "Hide",
+															"type": "Show",
 															"caster": "All"
 														}
 													]
@@ -30470,6 +30495,150 @@
 											"name": "N Traits - Chilling Nova - Ice Blast",
 											"guids": [
 												"XqeYvK0cyadD1jPtx+2z7w=="
+											],
+											"behaviors": [
+												{
+													"type": "Hide",
+													"caster": "All"
+												}
+											]
+										},
+										{
+											"name": "N Scourge Traits - Sand Savant - F1 - Charge",
+											"guids": [
+												"Ss7KK2b3KaxE9j1q2M3Q+w=="
+											],
+											"behaviors": [
+												{
+													"type": "Hide",
+													"caster": "All"
+												}
+											]
+										},
+										{
+											"name": "N Scourge Traits - Sand Savant - F1 - Drop",
+											"guids": [
+												"vCmVFGelJrVEc/smAc+9QA=="
+											],
+											"behaviors": [
+												{
+													"type": "Hide",
+													"caster": "All"
+												}
+											]
+										},
+										{
+											"name": "N Scourge Traits - Sand Savant - F1 - Shade",
+											"guids": [
+												"xBb0L3vAB4tLl3nq6W57Rg=="
+											],
+											"behaviors": [
+												{
+													"type": "Hide",
+													"caster": "All"
+												}
+											]
+										},
+										{
+											"name": "N Scourge Traits - Sand Savant - F2 - Whirl",
+											"guids": [
+												"mIArSYXqbZFA6v1b4xYWxQ=="
+											],
+											"behaviors": [
+												{
+													"type": "Hide",
+													"caster": "All"
+												}
+											]
+										},
+										{
+											"name": "N Scourge Traits - Sand Savant - F3 - Blast",
+											"guids": [
+												"m34z5X2kd79LwHZZYqOSfg=="
+											],
+											"behaviors": [
+												{
+													"type": "Hide",
+													"caster": "All"
+												}
+											]
+										},
+										{
+											"name": "N Scourge Traits - Sand Savant - F4 - Skeleton",
+											"guids": [
+												"KpK7A4VV3I1NzSdyiNdPIQ=="
+											],
+											"behaviors": [
+												{
+													"type": "Hide",
+													"caster": "All"
+												}
+											]
+										},
+										{
+											"name": "N Scourge Traits - Sand Savant - F5 - Cyclone",
+											"guids": [
+												"qM4sqY6cj4tKMzSy1NIodQ=="
+											],
+											"behaviors": [
+												{
+													"type": "Hide",
+													"caster": "All"
+												}
+											]
+										},
+										{
+											"name": "N Scourge Traits - Sand Savant - F5 - Orbiting",
+											"guids": [
+												"Ofh0auiHSbZB7xK1SzkWMQ=="
+											],
+											"behaviors": [
+												{
+													"type": "Hide",
+													"caster": "All"
+												}
+											]
+										},
+										{
+											"name": "N Scourge Traits - Sandstorm Shroud+ - Yellow AoE 300",
+											"guids": [
+												"v6Qefte5W65EshlTkJbqwg=="
+											],
+											"behaviors": [
+												{
+													"type": "Hide",
+													"caster": "All"
+												}
+											]
+										},
+										{
+											"name": "N Scourge Traits - Sandstorm Shroud+ - Black Whirl",
+											"guids": [
+												"IhLpPC5pKoZDuMeYTSpyWg=="
+											],
+											"behaviors": [
+												{
+													"type": "Hide",
+													"caster": "All"
+												}
+											]
+										},
+										{
+											"name": "N Scourge Traits - Sandstorm Shroud - Yellow AoE 180",
+											"guids": [
+												"RLRVJAuHW6pB6ldGK0n8xg=="
+											],
+											"behaviors": [
+												{
+													"type": "Hide",
+													"caster": "All"
+												}
+											]
+										},
+										{
+											"name": "N Scourge Traits - Sandstorm Shroud - Black Whirl",
+											"guids": [
+												"31YD44jHYI9P9FVKWGcZOg=="
 											],
 											"behaviors": [
 												{
