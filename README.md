@@ -1,10 +1,7 @@
 The files in here are ment to be used with [Vfx Denoiser](https://github.com/HasKha/VfxDenoiserReleases)
 
-<<<<<<< HEAD
+
 To use them, just move the *.JSON files into the Vfx Denoiser's folder, which is located within the Guild Wars 2 addons folder.
-=======
-To use them, just move the *.JSON files into the Vfx Denoisers folder, which is located withing the Guild Wars 2 addons folder.
->>>>>>> 1a17381 (Update v4177)
    - ~\Guild Wars 2\addons\VfxDenoiser
 
 **Glutony** disables all effects but keeps important ones like reflective domes and portals.
