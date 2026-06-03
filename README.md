@@ -1,11 +1,55 @@
-The files in here are ment to be used with [Vfx Denoiser](https://github.com/HasKha/VfxDenoiserReleases)
+## Usage
 
+These configuration files are designed for [Vfx Denoiser](https://github.com/HasKha/VfxDenoiserReleases)
 
-To use them, just move the *.JSON files into the Vfx Denoiser's folder, which is located within the Guild Wars 2 addons folder.
-   - ~\Guild Wars 2\addons\VfxDenoiser
+### Installation
 
-**Glutony** disables all effects but keeps important ones like reflective domes and portals.
+Copy the desired `*.json` file into your Vfx Denoiser configuration directory:
 
-**Pride** disables only other players effects but keeps important ones like reflective domes and portals.
+```text
+Guild Wars 2
+└─ addons
+   └─ VfxDenoiser
+```
 
-**Sloth** is the same as Pride but has all effects removed that ever caused a crash, so it is the safest option.
+## Presets
+
+| Preset | Description |
+|---------|-------------|
+| **Gluttony** | Removes nearly all visual effects. |
+| **Pride** | Removes effects from other players. |
+| **Sloth** | Based on **Pride**, but removes the whole "Caution" category. This is the safest option. |
+
+> [!TIP]
+> New users should start with **Sloth** for maximum stability when trying the addon for the first time.
+
+> [!NOTE]
+> Presets are intended to reduce visual clutter while keeping critical encounter mechanics such as reflective domes and portals visible.
+> Feel free to adjust them to your own preferences.´
+
+> [!IMPORTANT]
+> New releases use a vXXXX suffix to ensure your existing settings are not overwritten.
+> If you are updating, any custom changes will need to be migrated manually to the newer files.
+> Note: Updates are released approximately monthly and tend to include only minor additions, so keeping your custom settings up to date should require little effort.
+
+___
+
+**Legend**
+- 🔍 Searching for it *(Help wanted)*
+- ❌ Non-Resolvable
+- ⚠️ Not Captured by Vfx Denoiser
+
+> **Help wanted:** If you can reproduce or identify any 🔍 entries, please contact me. (Xenophy.2716, EU server)
+
+| Status | Source | Skill / Effect | Notes |
+|--------|--------|----------------|-------|
+| 🔍 | Many Mounts | Many effects | This is no priority but still adding this here in case someone is interested. |
+| 🔍 | Demonic Infusion | Body effect and trail|  |
+| 🔍 | Seer Transcendence Infusion | Body effect |  |
+| 🔍 | Strife Unending | T4 and T5 crossed swords |  |
+| 🔍 | Stella Radiens | Halo |  |
+| ❌ | Ranger Druid | Celestial Avatar 1 (Cosmic Ray) | Ray is cast by `"null"`, causing **Hide Others** to hide it because the source is not the player. |
+| ⚠️ | Ranger Druid | Celestial Avatar 5 (Natural Convergence) | Black hole effect on enemy. |
+| ⚠️ | Guardian Core | F1 – Flame of Justice | Blue flame effect on enemy. |
+| ⚠️ | Necromancer Ritualist | Spirits | Green hit effects on enemy. |
+| ⚠️ | Sigil of Lightning | Proc Effect | Spark effects on enemy. |
