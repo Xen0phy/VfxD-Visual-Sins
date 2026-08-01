@@ -1,7 +1,7 @@
 {
 	"version": {
 		"major": 1,
-		"minor": 8
+		"minor": 9
 	},
 	"categories": [
 		{
@@ -472,6 +472,31 @@
 							"description": "Disabling the effects in here will just hide the effect on the weapons.\nPlease check \"Legendary Effects -> Armor -> Elkasia\" to disable the correlated armor effects.\n\n",
 							"effects": [
 								{
+									"name": "Inf - Amber Agony Lens (Right)",
+									"guids": [
+										"sTExyRIEgpVPg1FwpWYjmw=="
+									],
+									"behaviors": [
+										{
+											"type": "Hide",
+											"caster": "Others"
+										}
+									]
+								},
+								{
+									"name": "Inf - Amber Agony Lens (Left)",
+									"guids": [
+										"QYz5wPjRjIhIEjDL1+tEVw==",
+										"DUJDSUbF9aVFxpN3U+Z9sQ=="
+									],
+									"behaviors": [
+										{
+											"type": "Hide",
+											"caster": "Others"
+										}
+									]
+								},
+								{
 									"name": "Inf - Aureate Agony Lens (Left)",
 									"guids": [
 										"swY/CMcIl5RDrQ29tQXQcQ=="
@@ -496,9 +521,21 @@
 									]
 								},
 								{
-									"name": "Inf - Azure Agony Lens (Right)",
+									"name": "Inf - Azure Agony Lens (Left)",
 									"guids": [
 										"uPnPndGy0ppHkBpFN/umPQ=="
+									],
+									"behaviors": [
+										{
+											"type": "Hide",
+											"caster": "Others"
+										}
+									]
+								},
+								{
+									"name": "Inf - Azure Agony Lens (Right)",
+									"guids": [
+										"8isGcsfPoa5LW90MiUtLww=="
 									],
 									"behaviors": [
 										{
@@ -1525,6 +1562,23 @@
 									]
 								}
 							]
+						},
+						{
+							"name": "Sigils",
+							"effects": [
+								{
+									"name": "Items - Sigil of Torment - Small Blast Enemy",
+									"guids": [
+										"2rVZxIyZDItFpbNrjU+bkg=="
+									],
+									"behaviors": [
+										{
+											"type": "Hide",
+											"caster": "Others"
+										}
+									]
+								}
+							]
 						}
 					],
 					"effects": [
@@ -1592,6 +1646,42 @@
 							"name": "Items - Prototype Position Rewinder - Lightning Ball",
 							"guids": [
 								"+c6E8wd9rYJFaF24pHWn/g=="
+							],
+							"behaviors": [
+								{
+									"type": "Hide",
+									"caster": "Others"
+								}
+							]
+						},
+						{
+							"name": "Items - Saga's End Draconic Core - Fire Hand",
+							"guids": [
+								"S65g9tpnx6FC0pGuITnDOg=="
+							],
+							"behaviors": [
+								{
+									"type": "Hide",
+									"caster": "Others"
+								}
+							]
+						},
+						{
+							"name": "Items - Saga's End Draconic Core - Ice Hand",
+							"guids": [
+								"WSeIOPtnoqRBcLHDMfcQtQ=="
+							],
+							"behaviors": [
+								{
+									"type": "Hide",
+									"caster": "Others"
+								}
+							]
+						},
+						{
+							"name": "Items - Primer - Sparks",
+							"guids": [
+								"TcgIfoy0kL9Lw06cMAeFpw=="
 							],
 							"behaviors": [
 								{
@@ -1850,6 +1940,59 @@
 							"name": "Skin - Warhorn - Infernal Roar - Dragon Head",
 							"guids": [
 								"Td955ESPjadA9aWGr7UBsQ=="
+							],
+							"behaviors": [
+								{
+									"type": "Hide",
+									"caster": "Others"
+								}
+							]
+						},
+						{
+							"name": "Skin - Ebenhawke Crossbow Rifle - Arrow",
+							"guids": [
+								"NVR1jdWDZLNOyh/s4sM6zg=="
+							],
+							"behaviors": [
+								{
+									"type": "Hide",
+									"caster": "Others"
+								}
+							]
+						},
+						{
+							"name": "Skin - Ebenhawke Crossbow Rifle - Projectile",
+							"guids": [
+								"lewwE1eK6ahNIWQo2ds13A=="
+							],
+							"behaviors": [
+								{
+									"type": "Hide",
+									"caster": "Others"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Mail Carriers",
+					"effects": [
+						{
+							"name": "Mail Carrier - Pidgeon",
+							"guids": [
+								"nBoNqBaC+4dJPsbvDGF1Lw=="
+							],
+							"behaviors": [
+								{
+									"type": "Hide",
+									"caster": "Others"
+								}
+							]
+						},
+						{
+							"name": "Mail Carrier - Quaggan",
+							"guids": [
+								"Qh27Z1wMl5xFbh0xcj9jNw=="
 							],
 							"behaviors": [
 								{
@@ -2491,6 +2634,61 @@
 									]
 								}
 							]
+						},
+						{
+							"name": "Enchanted Set",
+							"effects": [
+								{
+									"name": "Mounts - Enchanted - Appearance",
+									"guids": [
+										"YwMuqOmQQptDNMfkKUS+iQ=="
+									],
+									"behaviors": [
+										{
+											"type": "Show",
+											"caster": "All"
+										}
+									]
+								},
+								{
+									"name": "Mounts - Enchanted - Disappearance",
+									"guids": [
+										"jaw/DnPbEp9Jb7l9e14Zqw=="
+									],
+									"behaviors": [
+										{
+											"type": "Show",
+											"caster": "All"
+										}
+									]
+								},
+								{
+									"name": "Mounts - Enchanted - Mount Up Whirl",
+									"description": "Also includes a sound.\n\n",
+									"guids": [
+										"7vHZgt6PfqhGVXPFnqAwbQ=="
+									],
+									"behaviors": [
+										{
+											"type": "Hide",
+											"caster": "Others"
+										}
+									]
+								},
+								{
+									"name": "Mounts - Enchanted - Dismount Whirl",
+									"description": "Also includes a sound.\n\n",
+									"guids": [
+										"he+Uk1/Z4bZIcEntheZR7g=="
+									],
+									"behaviors": [
+										{
+											"type": "Hide",
+											"caster": "Others"
+										}
+									]
+								}
+							]
 						}
 					]
 				},
@@ -2558,6 +2756,18 @@
 							]
 						},
 						{
+							"name": "Misc - Water Footfall Splash",
+							"guids": [
+								"P37/jYp61r1HyXsfVRjBuQ=="
+							],
+							"behaviors": [
+								{
+									"type": "Hide",
+									"caster": "Others"
+								}
+							]
+						},
+						{
 							"name": "Misc - Barrier",
 							"guids": [
 								"m3U3PhB05YVFsTxJFa/wBw=="
@@ -2610,7 +2820,8 @@
 							"description": "When some items are used, Convergences and level up. Still missing one.\n\n",
 							"guids": [
 								"NNGqFkigB4BJJnDA9fcC8g==",
-								"AagpfQYPZJ5Lqe+ep5uzMA=="
+								"AagpfQYPZJ5Lqe+ep5uzMA==",
+								"BN7WYa3285RImi9/NTNgEA=="
 							],
 							"behaviors": [
 								{
@@ -2680,18 +2891,6 @@
 							]
 						},
 						{
-							"name": "Misc - Mail Carrier - Pigeon",
-							"guids": [
-								"nBoNqBaC+4dJPsbvDGF1Lw=="
-							],
-							"behaviors": [
-								{
-									"type": "Hide",
-									"caster": "Others"
-								}
-							]
-						},
-						{
 							"name": "Misc - Golden Sparkles on EXP Gain",
 							"description": "Hiding this might let the sparkles appear indefinitely until the map is changed.\n\n",
 							"guids": [
@@ -2730,9 +2929,9 @@
 							]
 						},
 						{
-							"name": "Misc - Primer - Sparks",
+							"name": "Misc - Block - Dim Shield",
 							"guids": [
-								"TcgIfoy0kL9Lw06cMAeFpw=="
+								"Rw7H5alXSqZOPlOB86pIzA=="
 							],
 							"behaviors": [
 								{
@@ -2742,9 +2941,22 @@
 							]
 						},
 						{
-							"name": "Misc - Block - Dim Shield",
+							"name": "Misc - Small Blast",
+							"description": "When delivering essences in Convergences.\n\n",
 							"guids": [
-								"Rw7H5alXSqZOPlOB86pIzA=="
+								"6vCahfWyablBPKHljeozmw=="
+							],
+							"behaviors": [
+								{
+									"type": "Hide",
+									"caster": "Others"
+								}
+							]
+						},
+						{
+							"name": "Misc - Jade Bot - Combat - Jets",
+							"guids": [
+								"N/Cjbile7bZO0Qb01xBe3A=="
 							],
 							"behaviors": [
 								{
@@ -4408,7 +4620,6 @@
 							"categories": [
 								{
 									"name": "Shared",
-									"description": "Effects that are shared between Guardian categories.\n\n",
 									"effects": [
 										{
 											"name": "G Share - Hand Glow 1",
@@ -5222,6 +5433,18 @@
 															"caster": "Others"
 														}
 													]
+												},
+												{
+													"name": "G Mace 3b - Shockwave",
+													"guids": [
+														"vHljZyYIF7tPCwnEb4YneQ=="
+													],
+													"behaviors": [
+														{
+															"type": "Hide",
+															"caster": "Others"
+														}
+													]
 												}
 											]
 										},
@@ -5641,6 +5864,18 @@
 										{
 											"name": "Focus",
 											"effects": [
+												{
+													"name": "G Focus 4 - Light Ray",
+													"guids": [
+														"nUtgY+wSyrlD12UL3j42wQ=="
+													],
+													"behaviors": [
+														{
+															"type": "Hide",
+															"caster": "Others"
+														}
+													]
+												},
 												{
 													"name": "G Focus 5 - Shield Ring",
 													"guids": [
@@ -7187,6 +7422,19 @@
 															"caster": "Others"
 														}
 													]
+												},
+												{
+													"name": "G Dragonhunter - Spear of Justice - Chain",
+													"description": "Type 4\n\n",
+													"guids": [
+														"nF1Dh1pNpJ1AeOLk4xthsw=="
+													],
+													"behaviors": [
+														{
+															"type": "Hide",
+															"caster": "Others"
+														}
+													]
 												}
 											]
 										},
@@ -7868,7 +8116,6 @@
 							"categories": [
 								{
 									"name": "Shared",
-									"description": "Effects that are shared between Warrior categories.\n\n",
 									"effects": [
 										{
 											"name": "Wa Share - Trail",
@@ -10299,6 +10546,68 @@
 															"caster": "Others"
 														}
 													]
+												},
+												{
+													"name": "Wa Spellbreaker - F2 - Full Counter - Charge",
+													"guids": [
+														"FnXPAZNqJYVJLK6xO1Zgsg=="
+													],
+													"behaviors": [
+														{
+															"type": "Hide",
+															"caster": "Others"
+														}
+													]
+												},
+												{
+													"name": "Wa Spellbreaker - F2 - Full Counter - Weapon Trail 1",
+													"description": "Type 10\n\n",
+													"guids": [
+														"H/GfYj/wKKtD5uYwGAZkbQ=="
+													],
+													"behaviors": [
+														{
+															"type": "Hide",
+															"caster": "Others"
+														}
+													]
+												},
+												{
+													"name": "Wa Spellbreaker - F2 - Full Counter - Weapon Trail 2",
+													"description": "Type 10\n\n",
+													"guids": [
+														"9n8RM356KIxNtgMVlW70hA=="
+													],
+													"behaviors": [
+														{
+															"type": "Hide",
+															"caster": "Others"
+														}
+													]
+												},
+												{
+													"name": "Wa Spellbreaker - F2 - Full Counter - Shards",
+													"guids": [
+														"JKiRDoIdEoFDkoJ8DoF8Lg=="
+													],
+													"behaviors": [
+														{
+															"type": "Hide",
+															"caster": "Others"
+														}
+													]
+												},
+												{
+													"name": "Wa Spellbreaker - F2 - Full Counter - Dim Shards",
+													"guids": [
+														"bKxc3O7Q1ZFJOizk+tO4jA=="
+													],
+													"behaviors": [
+														{
+															"type": "Hide",
+															"caster": "Others"
+														}
+													]
 												}
 											]
 										},
@@ -10713,6 +11022,175 @@
 													"caster": "Others"
 												}
 											]
+										},
+										{
+											"name": "Wa Trait Bladesworn - Sharp as the Wind - Trail",
+											"description": "Type 10\n\n",
+											"guids": [
+												"rr3QI0mtm59MpCC0HcGs/Q=="
+											],
+											"behaviors": [
+												{
+													"type": "Hide",
+													"caster": "Others"
+												}
+											]
+										},
+										{
+											"name": "Wa Trait Bladesworn - Sharp as the Wind - 1 - Projectile",
+											"guids": [
+												"DtR0N2aBELRDFon45m/yFQ=="
+											],
+											"behaviors": [
+												{
+													"type": "Hide",
+													"caster": "Others"
+												}
+											]
+										},
+										{
+											"name": "Wa Trait Bladesworn - Sharp as the Wind - 2 - Projectil",
+											"guids": [
+												"W46z0owa3olG3cftYKQ5vg=="
+											],
+											"behaviors": [
+												{
+													"type": "Hide",
+													"caster": "Others"
+												}
+											]
+										},
+										{
+											"name": "Wa Trait Bladesworn - Sharp as the Wind - Dragon Slash - Explosion",
+											"guids": [
+												"lP4THw3KIbJJykxfYOCRPg=="
+											],
+											"behaviors": [
+												{
+													"type": "Hide",
+													"caster": "Others"
+												}
+											]
+										},
+										{
+											"name": "Wa Trait Bladesworn - Sharp as the Wind - Dragon Slash - Slash",
+											"guids": [
+												"XAolE8qzxbxEtXAAn6V92Q=="
+											],
+											"behaviors": [
+												{
+													"type": "Hide",
+													"caster": "Others"
+												}
+											]
+										},
+										{
+											"name": "Wa Trait Bladesworn - Sharp as the Wind - Dragon Slash Boost - Slash",
+											"guids": [
+												"Pyr0kTDwf4pAGMj+fYtiPQ=="
+											],
+											"behaviors": [
+												{
+													"type": "Hide",
+													"caster": "Others"
+												}
+											]
+										},
+										{
+											"name": "Wa Trait Bladesworn - Sharp as the Wind - Dragon Slash Reach - Slash",
+											"guids": [
+												"1ZptHZNSk5lFOQOt6/Bvbg=="
+											],
+											"behaviors": [
+												{
+													"type": "Hide",
+													"caster": "Others"
+												}
+											]
+										},
+										{
+											"name": "Wa Trait Bladesworn - River's Flow - Trail",
+											"guids": [
+												"sgeVUrQLLZpOu+0Ozjaj9A=="
+											],
+											"behaviors": [
+												{
+													"type": "Hide",
+													"caster": "Others"
+												}
+											]
+										},
+										{
+											"name": "Wa Trait Bladesworn - River's Flow - 1 - Projectile",
+											"guids": [
+												"Oa9nWFCjv4xIlMujMoJ4rA=="
+											],
+											"behaviors": [
+												{
+													"type": "Hide",
+													"caster": "Others"
+												}
+											]
+										},
+										{
+											"name": "Wa Trait Bladesworn - River's Flow - 2 - Projectile",
+											"guids": [
+												"h0qJQ7Y0iJdDeOTxX+x9bA=="
+											],
+											"behaviors": [
+												{
+													"type": "Hide",
+													"caster": "Others"
+												}
+											]
+										},
+										{
+											"name": "Wa Trait Bladesworn - River's Flow - 3 - Fog",
+											"guids": [
+												"V+ziO+TX1rVF4n1iD72w6w=="
+											],
+											"behaviors": [
+												{
+													"type": "Hide",
+													"caster": "Others"
+												}
+											]
+										},
+										{
+											"name": "Wa Trait Bladesworn - River's Flow - Dragon Slash - Explosion",
+											"guids": [
+												"SOr3ABHtsYRGFzcX4dxk3Q=="
+											],
+											"behaviors": [
+												{
+													"type": "Hide",
+													"caster": "Others"
+												}
+											]
+										},
+										{
+											"name": "Wa Trait Bladesworn - River's Flow - Dragon Slash - Slash",
+											"guids": [
+												"yyssuRB/wKdOg+F7l0Cbsw=="
+											],
+											"behaviors": [
+												{
+													"type": "Hide",
+													"caster": "Others"
+												}
+											]
+										},
+										{
+											"name": "Wa Trait Bladesworn - River's Flow - Dragon Slash Boost - Slash",
+											"guids": [
+												"5XS2ArLI8r5DMJZSQrSZ1A=="
+											],
+											"behaviors": [
+												{
+													"type": "Hide",
+													"caster": "Others"
+												}
+											]
 										}
 									]
 								}
@@ -10723,7 +11201,6 @@
 							"categories": [
 								{
 									"name": "Shared",
-									"description": "Effects that are shared between Revenant categories.\n\n",
 									"effects": [
 										{
 											"name": "Re Share - Fog Trail",
@@ -10972,6 +11449,18 @@
 													"name": "Re Sword 4 - Chain Cone",
 													"guids": [
 														"v8+8PV+5U7xPHM5ZlPaTNg=="
+													],
+													"behaviors": [
+														{
+															"type": "Hide",
+															"caster": "Others"
+														}
+													]
+												},
+												{
+													"name": "Re Sword 5 - Whirl Enemy",
+													"guids": [
+														"JAuqqGMR2ZJH5L+f5X4m4w=="
 													],
 													"behaviors": [
 														{
@@ -11503,36 +11992,39 @@
 													]
 												},
 												{
-													"name": "Re Scepter 3 - Beam StartT4",
+													"name": "Re Scepter 3 - Tether Enemy",
 													"description": "Type 4\n\n",
 													"guids": [
-														"SUgPOCjFJrdNk2aSRvjQVA=="
-													],
-													"behaviors": [
-														{
-															"type": "Hide",
-															"caster": "Others"
-														}
-													]
-												},
-												{
-													"name": "Re Scepter 3 - Beam MidT4",
-													"description": "Type 4\n\n",
-													"guids": [
-														"nrG1rRNo+bVJlXvaZQ77CA=="
-													],
-													"behaviors": [
-														{
-															"type": "Hide",
-															"caster": "Others"
-														}
-													]
-												},
-												{
-													"name": "Re Scepter 3 - Beam EndT4",
-													"description": "Type 4\n\n",
-													"guids": [
+														"SUgPOCjFJrdNk2aSRvjQVA==",
+														"nrG1rRNo+bVJlXvaZQ77CA==",
 														"MQQIIPMHEJNOqghjC6CD1A=="
+													],
+													"behaviors": [
+														{
+															"type": "Hide",
+															"caster": "Others"
+														}
+													]
+												},
+												{
+													"name": "Re Scepter 3 - Tether Ally",
+													"description": "Type 4\n\n",
+													"guids": [
+														"PDSgM+Hiv79C4aC3zpBUIg==",
+														"yD3rFKRYRqpJYo+WoXQW4A==",
+														"PSl5wIuCeoFN5pFm3KR2eQ=="
+													],
+													"behaviors": [
+														{
+															"type": "Hide",
+															"caster": "Others"
+														}
+													]
+												},
+												{
+													"name": "Re Scepter 3 - Blast",
+													"guids": [
+														"l//vZPsh5L1Gu9l6R5SwQQ=="
 													],
 													"behaviors": [
 														{
@@ -14554,7 +15046,6 @@
 							"categories": [
 								{
 									"name": "Shared",
-									"description": "Effects that are shared between Engineer categories.\n\n",
 									"effects": [
 										{
 											"name": "En Share - AOE Ring",
@@ -18518,7 +19009,6 @@
 							"categories": [
 								{
 									"name": "Shared",
-									"description": "Effects that are shared between Thief categories.\n\n",
 									"effects": [
 										{
 											"name": "T Share - Shadow Whirl",
@@ -20977,6 +21467,24 @@
 													]
 												}
 											]
+										},
+										{
+											"name": "Venoms",
+											"effects": [
+												{
+													"name": "T Venom - Basilisk Venom - Stone Enemy",
+													"description": "Type 5\n\n",
+													"guids": [
+														"o916SurXZrNKaKGpZACyQg=="
+													],
+													"behaviors": [
+														{
+															"type": "Hide",
+															"caster": "Others"
+														}
+													]
+												}
+											]
 										}
 									]
 								},
@@ -21238,6 +21746,30 @@
 													"name": "T Deadeye Steal - Charge Body",
 													"guids": [
 														"+0E6BmSPW6xJ5mOMrbWsrA=="
+													],
+													"behaviors": [
+														{
+															"type": "Hide",
+															"caster": "Others"
+														}
+													]
+												},
+												{
+													"name": "T Deadeye - F2 - Red Whirl Enemy",
+													"guids": [
+														"9UktxHLDLb9MmMqTpjzFSw=="
+													],
+													"behaviors": [
+														{
+															"type": "Hide",
+															"caster": "Others"
+														}
+													]
+												},
+												{
+													"name": "T Deadeye - Malice - Reddish Aura",
+													"guids": [
+														"uafZ4hSBnblE5ta7tmNA3A=="
 													],
 													"behaviors": [
 														{
@@ -21784,7 +22316,6 @@
 							"categories": [
 								{
 									"name": "Shared",
-									"description": "Effects that are shared between Ranger categories.\n\n",
 									"effects": [
 										{
 											"name": "Ra Share - Charge Body",
@@ -23378,8 +23909,8 @@
 													],
 													"behaviors": [
 														{
-															"type": "Hide",
-															"caster": "Others"
+															"type": "Show",
+															"caster": "All"
 														}
 													]
 												},
@@ -23435,6 +23966,18 @@
 													"name": "Ra Glyph - Glyph of the Stars+ - Star Rain",
 													"guids": [
 														"VX5ho56ExpFE8fO6hwWw0g=="
+													],
+													"behaviors": [
+														{
+															"type": "Hide",
+															"caster": "Others"
+														}
+													]
+												},
+												{
+													"name": "Ra Glyph - Glyph of Unity - Tether",
+													"guids": [
+														"wI6y0HcUx5dDIg1jEFiLwQ=="
 													],
 													"behaviors": [
 														{
@@ -23822,6 +24365,18 @@
 													"name": "Ra Squall - Perfect Storm - Cyclone",
 													"guids": [
 														"2FZFfMhgcbtJtmorqwJJDg=="
+													],
+													"behaviors": [
+														{
+															"type": "Hide",
+															"caster": "Others"
+														}
+													]
+												},
+												{
+													"name": "Ra Squall - Perfect Storm - Bird Cyclone",
+													"guids": [
+														"SSOvrlU4NJ9M6gFg6EgilQ=="
 													],
 													"behaviors": [
 														{
@@ -24312,6 +24867,54 @@
 													"name": "Ra Pet Skills - Honey Toss - Honey Field",
 													"guids": [
 														"DrZazZNBpplKgJGN1/SW6g=="
+													],
+													"behaviors": [
+														{
+															"type": "Hide",
+															"caster": "Others"
+														}
+													]
+												},
+												{
+													"name": "Ra Pet Skills - Innocent Display - Hearts",
+													"guids": [
+														"LhBJbHFwoKdOKfRQelZ9+Q=="
+													],
+													"behaviors": [
+														{
+															"type": "Hide",
+															"caster": "Others"
+														}
+													]
+												},
+												{
+													"name": "Ra Pet Skills - Innocent Display - Splash",
+													"guids": [
+														"SEifKRdhRbNGV79bdp+Wsw=="
+													],
+													"behaviors": [
+														{
+															"type": "Hide",
+															"caster": "Others"
+														}
+													]
+												},
+												{
+													"name": "Ra Pet Skills - Jet - Yellow Whirl",
+													"guids": [
+														"lgkeY3JDX5VDnCcZhokLwQ=="
+													],
+													"behaviors": [
+														{
+															"type": "Hide",
+															"caster": "Others"
+														}
+													]
+												},
+												{
+													"name": "Ra Pet Skills - Jet - Wave",
+													"guids": [
+														"/yq0eUJ+CJJHQ7iJi0HZrQ=="
 													],
 													"behaviors": [
 														{
@@ -25000,6 +25603,18 @@
 															"name": "Ra Soulbeast - Pet Skill - Bumble - Feet Trail",
 															"guids": [
 																"XH4WIV3nQJZHUg8onqVUGg=="
+															],
+															"behaviors": [
+																{
+																	"type": "Hide",
+																	"caster": "Others"
+																}
+															]
+														},
+														{
+															"name": "Ra Soulbeast Pet Skills - Jet - Wave",
+															"guids": [
+																"Ax/b5gN+ILNEQvhHhsWmdw=="
 															],
 															"behaviors": [
 																{
@@ -25800,6 +26415,23 @@
 											]
 										}
 									]
+								},
+								{
+									"name": "Traits",
+									"effects": [
+										{
+											"name": "Ra Trait Druid - Cultivated Synergy - Splash",
+											"guids": [
+												"eBWIMn8GVa1D6UJiTQ8GHA=="
+											],
+											"behaviors": [
+												{
+													"type": "Hide",
+													"caster": "Others"
+												}
+											]
+										}
+									]
 								}
 							]
 						},
@@ -25808,7 +26440,6 @@
 							"categories": [
 								{
 									"name": "Shared",
-									"description": "Effects that are shared between Mesmer categories.\n\n",
 									"effects": [
 										{
 											"name": "M Share - Phantasm - Purple Translucence",
@@ -28088,6 +28719,19 @@
 															"caster": "Others"
 														}
 													]
+												},
+												{
+													"name": "M Tale of the Tortured - Shoulders Enemy",
+													"guids": [
+														"qUOv+dVmpLtNXryqZAVnuQ==",
+														"jle647dKDrdHFOnaZ/nE0g=="
+													],
+													"behaviors": [
+														{
+															"type": "Hide",
+															"caster": "Others"
+														}
+													]
 												}
 											]
 										},
@@ -28810,6 +29454,18 @@
 													"caster": "Others"
 												}
 											]
+										},
+										{
+											"name": "M Trait Chronomancer - Time Bomb - Blast",
+											"guids": [
+												"VmHtruGF2aNLf47mk7IPbw=="
+											],
+											"behaviors": [
+												{
+													"type": "Hide",
+													"caster": "Others"
+												}
+											]
 										}
 									]
 								}
@@ -28820,7 +29476,6 @@
 							"categories": [
 								{
 									"name": "Shared",
-									"description": "Effects that are shared between Necromancer categories.\n\n",
 									"effects": [
 										{
 											"name": "N Share - Reaper",
@@ -32511,6 +33166,18 @@
 													"caster": "Others"
 												}
 											]
+										},
+										{
+											"name": "N Trait Curses - Ligering Course - Devouring Darkness",
+											"guids": [
+												"Nig/KTf+Cp1Px38TYb3zBQ=="
+											],
+											"behaviors": [
+												{
+													"type": "Hide",
+													"caster": "Others"
+												}
+											]
 										}
 									]
 								}
@@ -32521,7 +33188,6 @@
 							"categories": [
 								{
 									"name": "Shared",
-									"description": "Effects that are shared between Elementalist categories.\n\n",
 									"effects": [
 										{
 											"name": "El Share - RHand Fire",
@@ -33487,6 +34153,18 @@
 															"name": "El Sword 3 (Weaver) - Air/Earth Updraft",
 															"guids": [
 																"XyznUb5c+51MoWTv/7Xf2Q=="
+															],
+															"behaviors": [
+																{
+																	"type": "Hide",
+																	"caster": "Others"
+																}
+															]
+														},
+														{
+															"name": "El Sword 3 (Weaver) - Fire/Air 2",
+															"guids": [
+																"rRcXaRX93qtKXF5hDtM7cw=="
 															],
 															"behaviors": [
 																{
@@ -37988,6 +38666,30 @@
 															"caster": "Others"
 														}
 													]
+												},
+												{
+													"name": "El Stance - Tailored Victory - Charge",
+													"guids": [
+														"jhHh+qHO6Z1NDI8U05mu/w=="
+													],
+													"behaviors": [
+														{
+															"type": "Hide",
+															"caster": "Others"
+														}
+													]
+												},
+												{
+													"name": "El Stance - Tailored Victory - Blast",
+													"guids": [
+														"+yvSnOVqHZ9ILNkrduJ4WA=="
+													],
+													"behaviors": [
+														{
+															"type": "Hide",
+															"caster": "Others"
+														}
+													]
 												}
 											]
 										},
@@ -40856,6 +41558,45 @@
 													"caster": "Others"
 												}
 											]
+										},
+										{
+											"name": "Hit 115 - Slices",
+											"description": "Used by:\n  * G:(Sword 3)\n\n",
+											"guids": [
+												"0CIj+booDK9AQ4CSeD42zA=="
+											],
+											"behaviors": [
+												{
+													"type": "Hide",
+													"caster": "Others"
+												}
+											]
+										},
+										{
+											"name": "Hit 116 - Three Claws",
+											"description": "Used by:\n  * Ra:(Pe: Tail Whip)\n\n",
+											"guids": [
+												"DRYRTbQAIa1PWxYuea/zEg=="
+											],
+											"behaviors": [
+												{
+													"type": "Hide",
+													"caster": "Others"
+												}
+											]
+										},
+										{
+											"name": "Hit 117 - Pharus",
+											"description": "Used by:\n  * Pharus\n\n",
+											"guids": [
+												"dE0aQwOPK5tI3AUDNYw+cQ=="
+											],
+											"behaviors": [
+												{
+													"type": "Hide",
+													"caster": "Others"
+												}
+											]
 										}
 									]
 								}
@@ -42434,6 +43175,18 @@
 													"caster": "Others"
 												}
 											]
+										},
+										{
+											"name": "Combo Finisher - Ice-Whirl - Projectile",
+											"guids": [
+												"CIJ/d/CIpLhLwF0K9dTAfw=="
+											],
+											"behaviors": [
+												{
+													"type": "Hide",
+													"caster": "Others"
+												}
+											]
 										}
 									]
 								},
@@ -42912,9 +43665,10 @@
 							]
 						},
 						{
-							"name": "SAK - IBS - Red Laser Maxed",
+							"name": "SAK - IBS - Red Laser",
 							"guids": [
-								"i4cb9KigAqlBBtPvtvw8sw=="
+								"i4cb9KigAqlBBtPvtvw8sw==",
+								"6IXPrT6XAZBLa1df3Hd0Iw=="
 							],
 							"behaviors": [
 								{
@@ -42924,9 +43678,10 @@
 							]
 						},
 						{
-							"name": "SAK - IBS - Green Laser Maxed",
+							"name": "SAK - IBS - Green Laser",
 							"guids": [
-								"s4jP+7dGFp5JXc1EJwUPZw=="
+								"s4jP+7dGFp5JXc1EJwUPZw==",
+								"dTPsqV2TTaRAjIWg/9AoRQ=="
 							],
 							"behaviors": [
 								{
@@ -42963,6 +43718,36 @@
 							"name": "SAK - Electromagical Pulse 2.0 - Aura",
 							"guids": [
 								"tbFaTskA7olPNgDjfBBspQ=="
+							],
+							"behaviors": [
+								{
+									"type": "Hide",
+									"caster": "Others"
+								}
+							]
+						},
+						{
+							"name": "SAK - Cold War - AIr Strike",
+							"guids": [
+								"ljImRzs6E6ZCAXpE5FsFSw=="
+							],
+							"behaviors": [
+								{
+									"type": "Hide",
+									"caster": "Others"
+								}
+							]
+						}
+					]
+				},
+				{
+					"name": "Sounds (non visual)",
+					"effects": [
+						{
+							"name": "T Deadeye Traits - Renewing Gaze - Click Sound",
+							"description": "Type 0\n\n",
+							"guids": [
+								"AcJ/Qk//5JJBMvA5YbwDzw=="
 							],
 							"behaviors": [
 								{
@@ -43314,14 +44099,18 @@
 						},
 						{
 							"name": "Elkasia",
+							"description": "Hm Cm Nm Am Sm",
 							"categories": [
 								{
 									"name": "Empty",
+									"description": "Hm Cf Nm Nf Am Sm\n\n",
 									"effects": [
 										{
 											"name": "Elkasia - Empty Infusion Slot (Left)",
+											"description": "Main\nOff\n\n",
 											"guids": [
-												"AFS09XcyRpJLL/GHKs7RGA=="
+												"AFS09XcyRpJLL/GHKs7RGA==",
+												"KScV1XPhubBENu9ikX4Weg=="
 											],
 											"behaviors": [
 												{
@@ -43345,7 +44134,12 @@
 										{
 											"name": "Elkasia - Left Hand Glow (Empty)",
 											"guids": [
-												"FwH+bM2r0YVD11e+Z2HW8w=="
+												"FwH+bM2r0YVD11e+Z2HW8w==",
+												"+ObfgOe4QaJEHUkmQD/HWQ==",
+												"dTrIAFU3sbNHRljt3Uzq6g==",
+												"F7G+i3Ud+rtBU8xm1gzlXA==",
+												"Qm2HOI1G4KlLTj/rGgO/2Q==",
+												"9DyvG6RbE4tP3e3oaup8YA=="
 											],
 											"behaviors": [
 												{
@@ -43357,7 +44151,12 @@
 										{
 											"name": "Elkasia - Right Hand Glow (Empty)",
 											"guids": [
-												"oAh8i3WCo7lNNYVgVxTSjA=="
+												"oAh8i3WCo7lNNYVgVxTSjA==",
+												"oQElzfuxALBJV6a5aiO1iQ==",
+												"cobv3EiLIbdLs/we8GoG2w==",
+												"wx1ieepnuaJJoP/KQ/43GA==",
+												"q7HUbJrfz5pA7yGZ3ogTGA==",
+												"UWzZSbyxs65IROj4sXjjWw=="
 											],
 											"behaviors": [
 												{
@@ -43369,7 +44168,12 @@
 										{
 											"name": "Elkasia - Left Draw Blast (Empty)",
 											"guids": [
-												"2ReOknSQOpVP3esoDyJzsQ=="
+												"2ReOknSQOpVP3esoDyJzsQ==",
+												"jBppHkyIUbNJXrlglzbcAg==",
+												"XVZoFBgPIZRNFZrgr28rNw==",
+												"EfBxKqRfCLhAhpJltEPS8w==",
+												"29ngTfYyNqZHbLDO55QLFg==",
+												"pdvymRiocIRFp/vRh23xAQ=="
 											],
 											"behaviors": [
 												{
@@ -43381,7 +44185,12 @@
 										{
 											"name": "Elkasia - Right Draw Blast (Empty)",
 											"guids": [
-												"CACGLGKZx4lK17zEsNgU/A=="
+												"CACGLGKZx4lK17zEsNgU/A==",
+												"xlNToxR946JIqtuHdHJOeg==",
+												"AA+yllBQ+bdBMifYbTzCtQ==",
+												"if9YDG8jXqNN9svazE7BLw==",
+												"GYmFYt6676RNmQ6J9As48A==",
+												"GxwMLxAkz7dEAYBLUJyH5Q=="
 											],
 											"behaviors": [
 												{
@@ -43393,7 +44202,12 @@
 										{
 											"name": "Elkasia - Left Sheeth Charge (Empty)",
 											"guids": [
-												"3aAyZ7ZFGJdJT3gbYR8AOw=="
+												"3aAyZ7ZFGJdJT3gbYR8AOw==",
+												"sOfdp0huDZxNyWQ55cexGQ==",
+												"DxNbB80/GK1EHGNQjQ7TfQ==",
+												"liah0hy+5btB2TKYlJlXYg==",
+												"IJF2rY6gw7NMEYF5IOrfOA==",
+												"JI53xoHnv6xI143cF9mxoQ=="
 											],
 											"behaviors": [
 												{
@@ -43405,7 +44219,31 @@
 										{
 											"name": "Elkasia - Right Sheeth Charge (Empty)",
 											"guids": [
-												"4mFxLm0nq5JIY+I88s7PaA=="
+												"4mFxLm0nq5JIY+I88s7PaA==",
+												"QiV0z9gsbY1EWLUN2ndkyA==",
+												"0nbyFqBS1LNDhhE6gOzTzQ==",
+												"L3qkI+mJjYZLqe6HaEmnqg==",
+												"rjnptlQRFpZPg0NBUcVY7Q==",
+												"8vjNIzWHZa9ARumKN8VCog=="
+											],
+											"behaviors": [
+												{
+													"type": "Hide",
+													"caster": "Others"
+												}
+											]
+										}
+									]
+								},
+								{
+									"name": "Amber",
+									"effects": [
+										{
+											"name": "Elkasia - Left Hand Glow (Amber) Charr/Norn",
+											"description": "Cf Nf",
+											"guids": [
+												"TpuLuJOMy5lDTlYMLZgb2w==",
+												"gQZJnhUGXaBGxG8daxzg8Q=="
 											],
 											"behaviors": [
 												{
@@ -43415,9 +44253,15 @@
 											]
 										},
 										{
-											"name": "Elkasia - Left Hand Glow (Empty) Charr?",
+											"name": "Elkasia - Right Hand Glow (Amber)",
+											"description": "Hm Cf Nm Nf Am",
 											"guids": [
-												"+ObfgOe4QaJEHUkmQD/HWQ=="
+												"QoG6peD9bLpNKj4Gn6JQZQ==",
+												"+cvqyu1EAaVMMuGEnxbypA==",
+												"wEQDr37Do6ZE/+KmgLMBhQ==",
+												"5+fCxjkGaqJDA9PCokrYug==",
+												"/eYySDK0j5VNQFZHgNILeQ==",
+												"odjbKxaFB7VFlzyi6BST3w=="
 											],
 											"behaviors": [
 												{
@@ -43427,9 +44271,10 @@
 											]
 										},
 										{
-											"name": "Elkasia - Right Hand Glow (Empty) Charr?",
+											"name": "Elkasia - Left Draw Blast (Amber) Charr/Norn",
 											"guids": [
-												"oQElzfuxALBJV6a5aiO1iQ=="
+												"CcQeP8pxhYxLBkACN12o7w==",
+												"QQNRtHdlRI5MuRhLs7X3BA=="
 											],
 											"behaviors": [
 												{
@@ -43439,9 +44284,14 @@
 											]
 										},
 										{
-											"name": "Elkasia - Left Draw Blast (Empty) Charr?",
+											"name": "Elkasia - Right Draw Blast (Amber)",
 											"guids": [
-												"jBppHkyIUbNJXrlglzbcAg=="
+												"YRU1Ytg2p4FPxxxzxqYHJA==",
+												"Xyz7J8Sb6rlKscJ4Qgso7Q==",
+												"vpYVi1bPfI5BcRd6wwYTVA==",
+												"p0IgLFKG9rNB3NQBxfaK2Q==",
+												"CYPSzlBMObJC0ba9t/mMBQ==",
+												"DkIZ8zvY0a5IrbBPrKJ/Yw=="
 											],
 											"behaviors": [
 												{
@@ -43451,9 +44301,10 @@
 											]
 										},
 										{
-											"name": "Elkasia - Right Draw Blast (Empty) Charr?",
+											"name": "Elkasia - Left Sheeth Charge (Amber) Charr/Norn",
 											"guids": [
-												"xlNToxR946JIqtuHdHJOeg=="
+												"dV7w1UHyUpZAESWKSmZmTw==",
+												"BCS8rZMtH4VDdNEC9yv0/w=="
 											],
 											"behaviors": [
 												{
@@ -43463,21 +44314,14 @@
 											]
 										},
 										{
-											"name": "Elkasia - Left Sheeth Charge (Empty) Charr?",
+											"name": "Elkasia - Right Sheeth Charge (Amber)",
 											"guids": [
-												"sOfdp0huDZxNyWQ55cexGQ=="
-											],
-											"behaviors": [
-												{
-													"type": "Hide",
-													"caster": "Others"
-												}
-											]
-										},
-										{
-											"name": "Elkasia - Right Sheeth Charge (Empty) Charr?",
-											"guids": [
-												"QiV0z9gsbY1EWLUN2ndkyA=="
+												"jEGeWEfz25hC22eyYjPacw==",
+												"65QdziJPi6ZN41WU4n0D3g==",
+												"Z1hRkyKrUpxIC7qUV7XvoQ==",
+												"NrcvaMfthqlA/8KBDH+ozQ==",
+												"tcMNxX5a2ZFA22trRQTu0w==",
+												"yGXj96XOzYlNdWluSoX20Q=="
 											],
 											"behaviors": [
 												{
@@ -43492,9 +44336,9 @@
 									"name": "Aureate",
 									"effects": [
 										{
-											"name": "Elkasia - Right Hand Glow (Aureate)",
+											"name": "Elkasia - Left Hand Glow (Aureate)",
 											"guids": [
-												"XDqbywWc8aZK8BW238z5hw=="
+												"l7endqDOcLFJHt9QcpzBNg=="
 											],
 											"behaviors": [
 												{
@@ -43504,9 +44348,9 @@
 											]
 										},
 										{
-											"name": "Elkasia - Left Hand Glow (Aureate)",
+											"name": "Elkasia - Right Hand Glow (Aureate)",
 											"guids": [
-												"l7endqDOcLFJHt9QcpzBNg=="
+												"XDqbywWc8aZK8BW238z5hw=="
 											],
 											"behaviors": [
 												{
@@ -43571,7 +44415,27 @@
 										{
 											"name": "Elkasia - Left Hand Glow (Azure)",
 											"guids": [
-												"qTdbo6VmqbZDihQauX6jzQ=="
+												"qTdbo6VmqbZDihQauX6jzQ==",
+												"dByRC7XmpoJLAatgt2LPzQ==",
+												"Zsnz1NqiZbhFPRCglPWyVg==",
+												"3QMTNmn8i4NHUuFY1r6fyA==",
+												"tnNh5df/m71LDUG/o2f80Q=="
+											],
+											"behaviors": [
+												{
+													"type": "Hide",
+													"caster": "Others"
+												}
+											]
+										},
+										{
+											"name": "Elkasia - Right Hand Glow (Azure)",
+											"guids": [
+												"xnonNnwfsbROvdC0n34IHQ==",
+												"AFMWu21xa4JAHOGIvBR/Vg==",
+												"EVL3s02/SbhPgE0IyDd/Uw==",
+												"b8HccnuQUJFBipRIS/L+Sw==",
+												"R7A8QQ/mPLBA/v06L2OgHg=="
 											],
 											"behaviors": [
 												{
@@ -43583,7 +44447,27 @@
 										{
 											"name": "Elkasia - Left Draw Blast (Azure)",
 											"guids": [
-												"nj0fhqimTq9EemN/hmC+AA=="
+												"nj0fhqimTq9EemN/hmC+AA==",
+												"Sg/gE5p7ZZ9Fi814+Kw5pA==",
+												"Eow8ENhE6olCSzFbV6f6yA==",
+												"qj84Peg84JlMPj+to3VwxQ==",
+												"AJk0g5Kg1IlFl9dUPquobQ=="
+											],
+											"behaviors": [
+												{
+													"type": "Hide",
+													"caster": "Others"
+												}
+											]
+										},
+										{
+											"name": "Elkasia - Right Draw Blast (Azure)",
+											"guids": [
+												"dmnJek3GWZZCgXIt/tvLEg==",
+												"G+e93rkg875LzhUkunhiLw==",
+												"65zTm6oS9J1ANMwT+Zwd9g==",
+												"6d/TqcJUhLlA8F7UND/Fxw==",
+												"odOgWc9QFaNMv6f1AXRl/A=="
 											],
 											"behaviors": [
 												{
@@ -43595,7 +44479,27 @@
 										{
 											"name": "Elkasia - Left Sheeth Charge (Azure)",
 											"guids": [
-												"s4t+CGxMDI1Bx4zaDddong=="
+												"s4t+CGxMDI1Bx4zaDddong==",
+												"g4zD5JFQGJxIwIqGv+lB2g==",
+												"uI90+YZ5pKNAR8qwkgsr5A==",
+												"xg80kacDPL5GWfp/Yx62lQ==",
+												"o3mHktgYDb5DWUYuzEL8yw=="
+											],
+											"behaviors": [
+												{
+													"type": "Hide",
+													"caster": "Others"
+												}
+											]
+										},
+										{
+											"name": "Elkasia - Right Sheeth Charge (Azure)",
+											"guids": [
+												"Gka+bmwrT7FHXElP/XQ3Vg==",
+												"xIpUwJ+EfatBDT4WgSZzrg==",
+												"+7sZDdcZda9PK1kzPVbrBg==",
+												"dlwfSZlKO5NIt7vjzEscAg==",
+												"91yCmUeh0KtNy9n3bMVHnQ=="
 											],
 											"behaviors": [
 												{
@@ -43612,7 +44516,11 @@
 										{
 											"name": "Elkasia - Left Hand Glow (Crimson)",
 											"guids": [
-												"QobATXrAvJRFdshB/MHgcw=="
+												"QobATXrAvJRFdshB/MHgcw==",
+												"IAnSIB+YV4pERNa+lMGkzg==",
+												"sqifdyDAm59H6NpaOopPNQ==",
+												"dDbUOkCLhY9H8d69Xxnabg==",
+												"S7GctfKRRrJO2Bq+k7n0og=="
 											],
 											"behaviors": [
 												{
@@ -43624,7 +44532,11 @@
 										{
 											"name": "Elkasia - Right Hand Glow (Crimson)",
 											"guids": [
-												"9NJw+xDuO5ZDPISwgOctxg=="
+												"9NJw+xDuO5ZDPISwgOctxg==",
+												"A5EK98H0oLtDdihK8H6hBg==",
+												"DsGEVK66kJJPaqm/BoCTZw==",
+												"ut6CxTg8SIxJHRihESPA/A==",
+												"y9lIn2CtqIlCVYwhSwx08w=="
 											],
 											"behaviors": [
 												{
@@ -43636,7 +44548,11 @@
 										{
 											"name": "Elkasia - Left Draw Blast (Crimson)",
 											"guids": [
-												"mRecBP0To7FCsu3lbjxwwQ=="
+												"mRecBP0To7FCsu3lbjxwwQ==",
+												"lqYiQUPzcIxJF/3G9ayegg==",
+												"ttRkibCR0JlBoNV+kD+erg==",
+												"hZ6B7xRkdoBIGDOc8xP3kw==",
+												"QpN/pogoQY5Ne5NDOo2zkA=="
 											],
 											"behaviors": [
 												{
@@ -43648,7 +44564,11 @@
 										{
 											"name": "Elkasia - Right Draw Blast (Crimson)",
 											"guids": [
-												"u+/H0YgC74BAQ+Alap6A1A=="
+												"u+/H0YgC74BAQ+Alap6A1A==",
+												"N969RYxTjZlFI8psfmZ9Tw==",
+												"mt5/fxTesbxA3MfV0wxCRA==",
+												"L99xpoS/8IxK301Vdnyqsw==",
+												"tT8hvhI4K4dKkqrAdzlaAw=="
 											],
 											"behaviors": [
 												{
@@ -43660,7 +44580,11 @@
 										{
 											"name": "Elkasia - Left Sheeth Charge (Crimson)",
 											"guids": [
-												"hfLlLDj2SJdBR2pmNyaJxA=="
+												"hfLlLDj2SJdBR2pmNyaJxA==",
+												"xxlQ6d2i7b1PLkHbazPU8w==",
+												"3ivvu5bjg49K3x9Usuqgcg==",
+												"V86FDFZdx5ZALaZhVSSLIQ==",
+												"40GgRLRmqKVFOky6Q/CJsg=="
 											],
 											"behaviors": [
 												{
@@ -43672,7 +44596,11 @@
 										{
 											"name": "Elkasia - Right Sheeth Charge (Crimson)",
 											"guids": [
-												"oh3aSnDsTKZNmcLPnfOtEg=="
+												"oh3aSnDsTKZNmcLPnfOtEg==",
+												"LaFnK1IWsqFMsnWWzOQZZg==",
+												"8zmtcm/157JKZUDv4n1fKQ==",
+												"0Dl8CF0JmqxA1+n3SwejCw==",
+												"ch+t7cfdSoZH7wNyHTtrnA=="
 											],
 											"behaviors": [
 												{
@@ -43689,7 +44617,11 @@
 										{
 											"name": "Elkasia - Left Hand Glow (Rose)",
 											"guids": [
-												"rhU7VWglAKJApGCwrx6fPQ=="
+												"rhU7VWglAKJApGCwrx6fPQ==",
+												"Czi9dg0cuqVMv4vj99A+dA==",
+												"NyCa/2Om2YtDerChkAE8FA==",
+												"eMGp2UhdUINJ/N3HXlpQ8w==",
+												"c6pfGDLIzaBA7xFHf/Cc8Q=="
 											],
 											"behaviors": [
 												{
@@ -43701,7 +44633,11 @@
 										{
 											"name": "Elkasia - Right Hand Glow (Rose)",
 											"guids": [
-												"IfilszA9Y4RMIH/dCnKYGQ=="
+												"IfilszA9Y4RMIH/dCnKYGQ==",
+												"w4epe697Up5KdAaRbJdkxg==",
+												"j3tIZ6AiNqlC5ZLv9wYpYw==",
+												"SYBx0rXWYYZPg/ZCE5jyWQ==",
+												"P8Eb3QWOto9L35jGafeHtg=="
 											],
 											"behaviors": [
 												{
@@ -43713,7 +44649,11 @@
 										{
 											"name": "Elkasia - Left Draw Blast (Rose)",
 											"guids": [
-												"tndYX/0BIa1L7MgNpePlOA=="
+												"tndYX/0BIa1L7MgNpePlOA==",
+												"O1V6iwohIYFPdMrB2gT81A==",
+												"8Oo99RSo8ZhB+5c7JD9XYg==",
+												"tuzoyzqS57tKoi2ofyXVqw==",
+												"c2XewgI94bNOjjSONR+UyQ=="
 											],
 											"behaviors": [
 												{
@@ -43725,7 +44665,11 @@
 										{
 											"name": "Elkasia - Right Draw Blast (Rose)",
 											"guids": [
-												"kMlKuQEx2KlGshWpdnncCQ=="
+												"kMlKuQEx2KlGshWpdnncCQ==",
+												"RzpKPi9BwoJKWLHcamCeMg==",
+												"gfqfEufTt5tFx40coBy6Sw==",
+												"KH6Pku0TxJNNLL/RAbwvkw==",
+												"Ttoz7pFOPJFO3jBIAeKl2g=="
 											],
 											"behaviors": [
 												{
@@ -43737,7 +44681,11 @@
 										{
 											"name": "Elkasia - Left Sheeth Charge (Rose)",
 											"guids": [
-												"11Gx81RUVIdGrasu7j6A3A=="
+												"11Gx81RUVIdGrasu7j6A3A==",
+												"Hupq0ynbhJZEMduPMy1MUQ==",
+												"eixWE77LPpFJJw1qSMiLsQ==",
+												"dpOxe4BIMK5FY6lfyksWcg==",
+												"sVXPIvRzhY9AABlDH/vOKA=="
 											],
 											"behaviors": [
 												{
@@ -43749,7 +44697,11 @@
 										{
 											"name": "Elkasia - Right Sheeth Charge (Rose)",
 											"guids": [
-												"bEufCgQgTo9D3T1V5weRrw=="
+												"bEufCgQgTo9D3T1V5weRrw==",
+												"wMD4rNac0rRKLhpq6E0W0A==",
+												"a4lr6IiNS4dNvuY/LwxZhA==",
+												"sdHrlb/saJlBOYqaZfWQBA==",
+												"at0CHjbX2IVISAEW4F9rhA=="
 											],
 											"behaviors": [
 												{
@@ -43766,7 +44718,11 @@
 										{
 											"name": "Elkasia - Left Hand Glow (Viridian)",
 											"guids": [
-												"YEF3zwQbKL9EBxn3jYJuNQ=="
+												"YEF3zwQbKL9EBxn3jYJuNQ==",
+												"rTQNkAej2JJCZd66iWSXGg==",
+												"2lhMh42DGqtJDZETP2qZ2Q==",
+												"odgBdnD2sbxKz15h0Rs7aQ==",
+												"8/YQP+EsdbVDLvysRYPySA=="
 											],
 											"behaviors": [
 												{
@@ -43778,7 +44734,11 @@
 										{
 											"name": "Elkasia - Right Hand Glow (Viridian)",
 											"guids": [
-												"JuBT8IqtCYJIqVVa4povvA=="
+												"JuBT8IqtCYJIqVVa4povvA==",
+												"iDSYQVaYop5CMUyEFDgSzQ==",
+												"twtOKwcbfpVFdYaEpwtgeA==",
+												"fpEyugjWk4FBr8tW4LQOCQ==",
+												"B3dfMElMD6lLzjBj60lBAg=="
 											],
 											"behaviors": [
 												{
@@ -43790,7 +44750,11 @@
 										{
 											"name": "Elkasia - Left Draw Blast (Viridian)",
 											"guids": [
-												"c5t5sRz9rpVNDhzxOJmFeg=="
+												"c5t5sRz9rpVNDhzxOJmFeg==",
+												"3OIZATk2DKFD++PCt6T92Q==",
+												"MkI2ScdqbrVEgjIZb/rP/g==",
+												"Eak29j6YhodG0FIuxLadXQ==",
+												"36L3b+imxqVIuLQbBxa0GQ=="
 											],
 											"behaviors": [
 												{
@@ -43802,7 +44766,11 @@
 										{
 											"name": "Elkasia - Right Draw Blast (Viridian)",
 											"guids": [
-												"QoP7eE0o74ZHrMnNLjs12A=="
+												"QoP7eE0o74ZHrMnNLjs12A==",
+												"SzWG9H17ZJZM7IjziOIbcg==",
+												"3R+0Fr0sSYVOMu0LI1VjHw==",
+												"QjkoiHAj1phKBi3yAQZ/UA==",
+												"ituSwmZmvYRFeoZ4czvVow=="
 											],
 											"behaviors": [
 												{
@@ -43814,7 +44782,11 @@
 										{
 											"name": "Elkasia - Left Sheeth Charge (Viridian)",
 											"guids": [
-												"PFCgl9iRP6pAQ6dvuB60ZQ=="
+												"PFCgl9iRP6pAQ6dvuB60ZQ==",
+												"oA75fllQJJdFfcDBXnTtWg==",
+												"oZv33q50rpVHmKZsIMNiKA==",
+												"UQnKDt9Ct75DZ32usCqc6A==",
+												"sw253UkMb6xEow5JWq0Ntg=="
 											],
 											"behaviors": [
 												{
@@ -43826,7 +44798,11 @@
 										{
 											"name": "Elkasia - Right Sheeth Charge (Viridian)",
 											"guids": [
-												"34Qu8GK5trFHMKnPJmxS0w=="
+												"34Qu8GK5trFHMKnPJmxS0w==",
+												"broqQvhTc4FCTIUsLAfdww==",
+												"ZHEE9vV8abNO21VwtqPUjw==",
+												"W6aalrogzYhHBuY81hCySw==",
+												"5DBQo/DwOrBN7sr7+FBN1Q=="
 											],
 											"behaviors": [
 												{
@@ -43843,6 +44819,78 @@
 				},
 				{
 					"name": "Trinkets",
+					"categories": [
+						{
+							"name": "Strife Unending",
+							"effects": [
+								{
+									"name": "Strife Unending - Swords T1",
+									"guids": [
+										"/NWId9HuUoNA2dsj4xwS8Q=="
+									],
+									"behaviors": [
+										{
+											"type": "Hide",
+											"caster": "Others"
+										}
+									]
+								},
+								{
+									"name": "Strife Unending - Swords T2",
+									"guids": [
+										"qQLON9Pmx6JDU60YOJrgLQ=="
+									],
+									"behaviors": [
+										{
+											"type": "Hide",
+											"caster": "Others"
+										}
+									]
+								},
+								{
+									"name": "Strife Unending - Swords T3",
+									"guids": [
+										"Ch4yQ3FwWJRIHQYncGkv9w=="
+									],
+									"behaviors": [
+										{
+											"type": "Hide",
+											"caster": "Others"
+										}
+									]
+								}
+							]
+						},
+						{
+							"name": "Stella Radians",
+							"effects": [
+								{
+									"name": "Stella Radians - Draw Halo",
+									"guids": [
+										"1ZBtYdeDAYdGosLNjJJdqw=="
+									],
+									"behaviors": [
+										{
+											"type": "Hide",
+											"caster": "Others"
+										}
+									]
+								},
+								{
+									"name": "Stella Radians - Halo",
+									"guids": [
+										"J0fawfQtf49DhvyJcAzDzg=="
+									],
+									"behaviors": [
+										{
+											"type": "Hide",
+											"caster": "Others"
+										}
+									]
+								}
+							]
+						}
+					],
 					"effects": [
 						{
 							"name": "Trinket Single Aura",
@@ -44305,7 +45353,10 @@
 											"name": "The Minstrel",
 											"effects": [
 												{
-													"name": "Placeholder",
+													"name": "The Minstrel - Footfalls",
+													"guids": [
+														"lXmKo+S45atF/M6vFnUNww=="
+													],
 													"behaviors": [
 														{
 															"type": "Hide",
@@ -48224,6 +49275,158 @@
 						},
 						{
 							"name": "Glider Skins",
+							"description": "If you REALLY want to hide a glider skin, set it to Set Duration ->  otherwise the game will crash.\n\n",
+							"categories": [
+								{
+									"name": "Boosted Jetpack Glider",
+									"effects": [
+										{
+											"name": "CRASH - Boosted Jetpack - Right Leg Thruster",
+											"guids": [
+												"QsO9h0kc6IRAC05MsjxscQ==",
+												"iUBljXfexYJDQ0ShIJVuZQ==",
+												"c5vSW3keWaFA11e97HUGOQ==",
+												"Tv9DBrfm24hI7VgjOWit0Q==",
+												"U5bauRvraZ5OgHgrR7GuiA=="
+											],
+											"behaviors": [
+												{
+													"type": "Show",
+													"caster": "All"
+												}
+											]
+										},
+										{
+											"name": "CRASH - Boosted Jetpack - Left Leg Thruster",
+											"guids": [
+												"02DPlJzhzZZCb8xeIje5ng==",
+												"1zBD7GPrb7ZLn9RNScWPKg==",
+												"YI6agfuyj61NMZqUywxqOA==",
+												"llAiCZvZhoFNl/noyZqasQ==",
+												"JPedAIZZ7qdFWuxIxEY/KA=="
+											],
+											"behaviors": [
+												{
+													"type": "Show",
+													"caster": "All"
+												}
+											]
+										},
+										{
+											"name": "CRASH - Boosted Jetpack - Right Hand Thruster",
+											"guids": [
+												"05Auq74dn7JACkbfPhw/oQ==",
+												"KL+pvDpDH71BKMO+Ur5O1w==",
+												"tPXiCV1V7Y9OAcDepj1eDQ==",
+												"vzpyJOSC9pNLYGNTY9Iz5g==",
+												"AsFr5g6KerVP07dxVOo9SA=="
+											],
+											"behaviors": [
+												{
+													"type": "Show",
+													"caster": "All"
+												}
+											]
+										},
+										{
+											"name": "CRASH - Boosted Jetpack - Left Hand Thruster",
+											"guids": [
+												"8yWj+k88q4BOJvDkFSmoiA==",
+												"r/GHE8MRvahG2PzFYjTVnQ==",
+												"jyuND7r8NatHBmtvXCqZ7w==",
+												"7HmQZeZHzbdGVTYaeroHkQ==",
+												"r0Uf6l2u8ZZBBwNEwGbXpQ=="
+											],
+											"behaviors": [
+												{
+													"type": "Show",
+													"caster": "All"
+												}
+											]
+										},
+										{
+											"name": "CRASH - Boosted Jetpack - Back Thruster",
+											"guids": [
+												"f2qdxL6OEJlEKM8NgvwT2A==",
+												"N79qLLsBXJ1PUiAUvhtIUg==",
+												"+Vfq+qrIsrlGz9qIl8wR7Q==",
+												"I4KR6tO+D7tOINZglmQVnQ==",
+												"EX/Ht87ooZVNf4PijRjjyQ=="
+											],
+											"behaviors": [
+												{
+													"type": "Show",
+													"caster": "All"
+												}
+											]
+										},
+										{
+											"name": "CRASH - Boosted Jetpack - Leaving Thruster 1",
+											"guids": [
+												"Ep/NW/zKpKxLFXmcvdPY8Q==",
+												"lSWIvtKpKJJAbwVGiZm05Q==",
+												"WtcX874nJrhPeuFjzDhi5g==",
+												"h6QN8TAo5ZhMwdVJ47goiA==",
+												"j32mqzgecLJLJ7wUKD2McQ=="
+											],
+											"behaviors": [
+												{
+													"type": "Show",
+													"caster": "All"
+												}
+											]
+										},
+										{
+											"name": "CRASH - Boosted Jetpack - Leaving Thruster 2",
+											"guids": [
+												"0fBWMqlAJ55D+XroYNiwww==",
+												"ga8tw6lrAI9IoXNDqa9ySQ==",
+												"PNxlG5e/v7lPYgMCxfuk7w==",
+												"ng3DUSqpHZ9GQ7PkcBaaXQ==",
+												"9v6laGsb4KVAcTNpCrETtw=="
+											],
+											"behaviors": [
+												{
+													"type": "Show",
+													"caster": "All"
+												}
+											]
+										},
+										{
+											"name": "CRASH - Boosted Jetpack - Leaving Thruster 3",
+											"guids": [
+												"7sUuODfPp4lIk90q/7rX5A==",
+												"zLn9uogr25NDWNLu6bFCbQ==",
+												"e9gPXBQ+25xCKLNCJd+oJw==",
+												"7npNdRYsSp5EVATxFBW7xA==",
+												"8L5yP4uhpYxGqmJ9AUPX/A=="
+											],
+											"behaviors": [
+												{
+													"type": "Show",
+													"caster": "All"
+												}
+											]
+										},
+										{
+											"name": "CRASH - Boosted Jetpack - Leaving Thruster 4",
+											"guids": [
+												"Vh/dABOwlaFLOrLRwOor1A==",
+												"N5z85GyBIa9FqxWI4KZG0w==",
+												"VQ/wpMKiuodHnfEHF7DzZA==",
+												"uUyEzrSL7LRAPm5ULwsKCA==",
+												"YziKI3C136xNBN4QhYzFuw=="
+											],
+											"behaviors": [
+												{
+													"type": "Show",
+													"caster": "All"
+												}
+											]
+										}
+									]
+								}
+							],
 							"effects": [
 								{
 									"name": "CRASH Super Adventure Glider",
@@ -48526,6 +49729,19 @@
 									"name": "CRASH Mount - Enchanted Skimmer - Whisps",
 									"guids": [
 										"Zw3C330OX6lAyiUMQO5pSQ=="
+									],
+									"behaviors": [
+										{
+											"type": "SetDuration",
+											"caster": "Others",
+											"duration": 1
+										}
+									]
+								},
+								{
+									"name": "CRASH Mount - Enchanted Springer - Whisps",
+									"guids": [
+										"p0xkt+qVHKNIcgrgayJrgw=="
 									],
 									"behaviors": [
 										{
@@ -49648,6 +50864,19 @@
 											]
 										},
 										{
+											"name": "INV°T6 048",
+											"description": "Used by:\n  * G:(Mace 3b)",
+											"guids": [
+												"ySANJA7M3pZATTCLPvOSEw=="
+											],
+											"behaviors": [
+												{
+													"type": "Show",
+													"caster": "All"
+												}
+											]
+										},
+										{
 											"name": "INV°T6 049",
 											"description": "Used by:\n  * Norn:(Become the Raven 2)\n\n",
 											"guids": [
@@ -50124,14 +51353,14 @@
 										},
 										{
 											"name": "INV°T6 084",
-											"description": "Used by:\n  * Ra:(Perfect Storm)\n\n",
+											"description": "Used by:\n  * M:(Call and Response)",
 											"guids": [
-												"SSOvrlU4NJ9M6gFg6EgilQ=="
+												"PLBuOSYdTZFBE/PC6OG2aA=="
 											],
 											"behaviors": [
 												{
-													"type": "Show",
-													"caster": "All"
+													"type": "Hide",
+													"caster": "Others"
 												}
 											]
 										},
@@ -50186,404 +51415,516 @@
 													"caster": "All"
 												}
 											]
-										}
-									]
-								}
-							],
-							"effects": [
-								{
-									"name": "INV°T6 - Aurene 1",
-									"guids": [
-										"kvkmXCCGbZNKmkcvaqLswg=="
-									],
-									"behaviors": [
+										},
 										{
-											"type": "Show",
-											"caster": "All"
-										}
-									]
-								},
-								{
-									"name": "INV°T6 - Aurene 2",
-									"guids": [
-										"ukwYSj9sWJdGoQFhg3SM8g=="
-									],
-									"behaviors": [
-										{
-											"type": "Show",
-											"caster": "All"
+											"name": "INV°T6 089",
+											"description": "Used by:\n  * T:(Deadeye Malice)\n\n",
+											"guids": [
+												"WiQpe3Qju6hLuh7TyoALWQ=="
+											],
+											"behaviors": [
+												{
+													"type": "Show",
+													"caster": "All"
+												}
+											]
 										}
 									]
 								},
 								{
-									"name": "INV°T6 - Aurene 3",
-									"guids": [
-										"zNVT8JRs7ZdGMjhGmmlrXg=="
-									],
-									"behaviors": [
+									"name": "91 - 100",
+									"effects": [
 										{
-											"type": "Show",
-											"caster": "All"
+											"name": "INV°T6 091",
+											"description": "Used by:\n  * Wa:(Dragon Slash)",
+											"guids": [
+												"TrMpi1eovqBCKqbkQ+46bA=="
+											],
+											"behaviors": [
+												{
+													"type": "Show",
+													"caster": "All"
+												}
+											]
+										},
+										{
+											"name": "INV°T6 092",
+											"description": "Used by:\n  * Wa:(Dragon Slash)",
+											"guids": [
+												"3WI2bLvkl6VPWKHpYOE5sg=="
+											],
+											"behaviors": [
+												{
+													"type": "Show",
+													"caster": "All"
+												}
+											]
+										},
+										{
+											"name": "INV°T6 093",
+											"description": "Used by:\n  * Wa:(Dragon Slash)",
+											"guids": [
+												"cuCAHf8HTbxPEgXV+1f6+w=="
+											],
+											"behaviors": [
+												{
+													"type": "Show",
+													"caster": "All"
+												}
+											]
+										},
+										{
+											"name": "INV°T6 094",
+											"description": "Used by:\n  * Wa:(Dragon Slash)",
+											"guids": [
+												"ukXqom+4+5BMiLZjrw1BFQ=="
+											],
+											"behaviors": [
+												{
+													"type": "Show",
+													"caster": "All"
+												}
+											]
+										},
+										{
+											"name": "INV°T6 095",
+											"description": "Used by:\n  * Wa:(Dragon Slash)",
+											"guids": [
+												"6B2TV+d/PKlCvLHu+N6HPQ=="
+											],
+											"behaviors": [
+												{
+													"type": "Show",
+													"caster": "All"
+												}
+											]
+										},
+										{
+											"name": "INV°T6 096",
+											"description": "Used by:\n  * Wa:(Dragon Slash)",
+											"guids": [
+												"Ky7SNbGaIb1PFJ80oqS1+w=="
+											],
+											"behaviors": [
+												{
+													"type": "Show",
+													"caster": "All"
+												}
+											]
 										}
 									]
 								},
 								{
-									"name": "INV°T6 - Ancora Pax/Bellum",
-									"guids": [
-										"X6Lwld47OotBD5BQOr3Rhg=="
-									],
-									"behaviors": [
+									"name": "Legendaries",
+									"effects": [
 										{
-											"type": "Show",
-											"caster": "All"
-										}
-									]
-								},
-								{
-									"name": "INV T6 - Klobjarne 1",
-									"guids": [
-										"XDgjI5xUEY1IeqtoeR60Rg=="
-									],
-									"behaviors": [
+											"name": "INV°T6 - Ancora Pax/Bellum",
+											"guids": [
+												"X6Lwld47OotBD5BQOr3Rhg=="
+											],
+											"behaviors": [
+												{
+													"type": "Show",
+													"caster": "All"
+												}
+											]
+										},
 										{
-											"type": "Show",
-											"caster": "All"
-										}
-									]
-								},
-								{
-									"name": "INV T6 - Klobjarne 2",
-									"guids": [
-										"/RlWA0Ub04BBcsM8q9MNEg=="
-									],
-									"behaviors": [
+											"name": "INV°T6 - Aurene 1",
+											"guids": [
+												"kvkmXCCGbZNKmkcvaqLswg=="
+											],
+											"behaviors": [
+												{
+													"type": "Show",
+													"caster": "All"
+												}
+											]
+										},
 										{
-											"type": "Show",
-											"caster": "All"
-										}
-									]
-								},
-								{
-									"name": "INV T6 - Klobjarne 3",
-									"guids": [
-										"t5cuuxZR5I1EMSM6bd3nYw=="
-									],
-									"behaviors": [
+											"name": "INV°T6 - Aurene 2",
+											"guids": [
+												"ukwYSj9sWJdGoQFhg3SM8g=="
+											],
+											"behaviors": [
+												{
+													"type": "Show",
+													"caster": "All"
+												}
+											]
+										},
 										{
-											"type": "Show",
-											"caster": "All"
-										}
-									]
-								},
-								{
-									"name": "INV°T5 - Nevermore 1",
-									"guids": [
-										"Cs1P2Zeb651MKnqIe417zg=="
-									],
-									"behaviors": [
+											"name": "INV°T6 - Aurene 3",
+											"guids": [
+												"zNVT8JRs7ZdGMjhGmmlrXg=="
+											],
+											"behaviors": [
+												{
+													"type": "Show",
+													"caster": "All"
+												}
+											]
+										},
 										{
-											"type": "Show",
-											"caster": "All"
-										}
-									]
-								},
-								{
-									"name": "INV°T6 - Nevermore 2",
-									"guids": [
-										"9Zp1WTED2aZHxldLdUNPQQ=="
-									],
-									"behaviors": [
+											"name": "INV°T6 - Aurene's Scale",
+											"guids": [
+												"Hy0xmYWLX6xIXHz70FuHiA=="
+											],
+											"behaviors": [
+												{
+													"type": "Show",
+													"caster": "All"
+												}
+											]
+										},
 										{
-											"type": "Show",
-											"caster": "All"
-										}
-									]
-								},
-								{
-									"name": "INV°T6 - Nevermore 3",
-									"guids": [
-										"7pby1AuPSYhPVW6bLS70DA=="
-									],
-									"behaviors": [
+											"name": "INV°T6 - Chuka and Champawat ",
+											"guids": [
+												"e3U/8hh4c7NEVwtTfEudhg=="
+											],
+											"behaviors": [
+												{
+													"type": "Show",
+													"caster": "All"
+												}
+											]
+										},
 										{
-											"type": "Show",
-											"caster": "All"
-										}
-									]
-								},
-								{
-									"name": "INV°T6 - Kralkatorrik",
-									"guids": [
-										"i3HL8ndZMpVEyc6j7fUCog=="
-									],
-									"behaviors": [
+											"name": "INV°T6 - Eureka",
+											"guids": [
+												"05qkwcYSSp1Htjb+FBLe4A=="
+											],
+											"behaviors": [
+												{
+													"type": "Show",
+													"caster": "All"
+												}
+											]
+										},
 										{
-											"type": "Show",
-											"caster": "All"
-										}
-									]
-								},
-								{
-									"name": "INV°T6 - Kralkatorrik's Bite",
-									"guids": [
-										"IDmgAyLtYbdNE+Nkuh+A4w=="
-									],
-									"behaviors": [
+											"name": "INV°T6 - HOPE",
+											"guids": [
+												"Ki4SGKk8q4pIye1f2EEJzA=="
+											],
+											"behaviors": [
+												{
+													"type": "Show",
+													"caster": "All"
+												}
+											]
+										},
 										{
-											"type": "Show",
-											"caster": "All"
-										}
-									]
-								},
-								{
-									"name": "INV°T6 - Primordus",
-									"guids": [
-										"JnhSGFGcbJBDgNLXYgvzpQ=="
-									],
-									"behaviors": [
+											"name": "INV°T6 - Jormag",
+											"guids": [
+												"BJcc10zapL1MpxLE2DYYaQ=="
+											],
+											"behaviors": [
+												{
+													"type": "Show",
+													"caster": "All"
+												}
+											]
+										},
 										{
-											"type": "Show",
-											"caster": "All"
-										}
-									]
-								},
-								{
-									"name": "INV°T6 - Pharus",
-									"guids": [
-										"piEwW01Z74dDFjm383kjcQ=="
-									],
-									"behaviors": [
+											"name": "INV°T6 - Jormag's Weight",
+											"guids": [
+												"f8nU2Tm+A7VFuaT1jMwiCw=="
+											],
+											"behaviors": [
+												{
+													"type": "Show",
+													"caster": "All"
+												}
+											]
+										},
 										{
-											"type": "Show",
-											"caster": "All"
-										}
-									]
-								},
-								{
-									"name": "INV°T6 - Eureka",
-									"guids": [
-										"05qkwcYSSp1Htjb+FBLe4A=="
-									],
-									"behaviors": [
+											"name": "INV T6 - Klobjarne 1",
+											"guids": [
+												"XDgjI5xUEY1IeqtoeR60Rg=="
+											],
+											"behaviors": [
+												{
+													"type": "Show",
+													"caster": "All"
+												}
+											]
+										},
 										{
-											"type": "Show",
-											"caster": "All"
-										}
-									]
-								},
-								{
-									"name": "INV°T6 - Jormag",
-									"guids": [
-										"BJcc10zapL1MpxLE2DYYaQ=="
-									],
-									"behaviors": [
+											"name": "INV T6 - Klobjarne 2",
+											"guids": [
+												"/RlWA0Ub04BBcsM8q9MNEg=="
+											],
+											"behaviors": [
+												{
+													"type": "Show",
+													"caster": "All"
+												}
+											]
+										},
 										{
-											"type": "Show",
-											"caster": "All"
-										}
-									]
-								},
-								{
-									"name": "INV°T6 - Jormag's Weight",
-									"guids": [
-										"f8nU2Tm+A7VFuaT1jMwiCw=="
-									],
-									"behaviors": [
+											"name": "INV T6 - Klobjarne 3",
+											"guids": [
+												"t5cuuxZR5I1EMSM6bd3nYw=="
+											],
+											"behaviors": [
+												{
+													"type": "Show",
+													"caster": "All"
+												}
+											]
+										},
 										{
-											"type": "Show",
-											"caster": "All"
-										}
-									]
-								},
-								{
-									"name": "INV°T6 - Chuka and Champawat ",
-									"guids": [
-										"e3U/8hh4c7NEVwtTfEudhg=="
-									],
-									"behaviors": [
+											"name": "INV°T6 - Kralkatorrik",
+											"guids": [
+												"i3HL8ndZMpVEyc6j7fUCog=="
+											],
+											"behaviors": [
+												{
+													"type": "Show",
+													"caster": "All"
+												}
+											]
+										},
 										{
-											"type": "Show",
-											"caster": "All"
-										}
-									]
-								},
-								{
-									"name": "INV°T6 - Shooshadoo",
-									"guids": [
-										"vccFkz87m4tDZ0VMJ2756A=="
-									],
-									"behaviors": [
+											"name": "INV°T6 - Kralkatorrik's Bite",
+											"guids": [
+												"IDmgAyLtYbdNE+Nkuh+A4w=="
+											],
+											"behaviors": [
+												{
+													"type": "Show",
+													"caster": "All"
+												}
+											]
+										},
 										{
-											"type": "Show",
-											"caster": "All"
-										}
-									]
-								},
-								{
-									"name": "INV°T6 - HOPE",
-									"guids": [
-										"Ki4SGKk8q4pIye1f2EEJzA=="
-									],
-									"behaviors": [
+											"name": "INV°T6 - Mordremoth 1",
+											"guids": [
+												"+LcYfXb9/bpP3h0LDMfJhg=="
+											],
+											"behaviors": [
+												{
+													"type": "Show",
+													"caster": "All"
+												}
+											]
+										},
 										{
-											"type": "Show",
-											"caster": "All"
-										}
-									]
-								},
-								{
-									"name": "INV°T6 - Mordremoth",
-									"guids": [
-										"Rd+eC5J0f5xO+cWBeuoV1Q=="
-									],
-									"behaviors": [
+											"name": "INV°T6 - Mordremoth 2",
+											"guids": [
+												"Qi3eC7UxD4JIjEkmBpBUmw=="
+											],
+											"behaviors": [
+												{
+													"type": "Show",
+													"caster": "All"
+												}
+											]
+										},
 										{
-											"type": "Show",
-											"caster": "All"
-										}
-									]
-								},
-								{
-									"name": "INV°T6 - Mordremoth",
-									"guids": [
-										"Qi3eC7UxD4JIjEkmBpBUmw=="
-									],
-									"behaviors": [
+											"name": "INV°T6 - Mordremoth 3",
+											"description": "a",
+											"guids": [
+												"Rd+eC5J0f5xO+cWBeuoV1Q=="
+											],
+											"behaviors": [
+												{
+													"type": "Show",
+													"caster": "All"
+												}
+											]
+										},
 										{
-											"type": "Show",
-											"caster": "All"
-										}
-									]
-								},
-								{
-									"name": "INV°T6 - Mordremoth",
-									"guids": [
-										"+LcYfXb9/bpP3h0LDMfJhg=="
-									],
-									"behaviors": [
+											"name": "INV°T6 - Mordremoth's Scale",
+											"guids": [
+												"fDj/DZSrGqNJwIUaNS7oQw=="
+											],
+											"behaviors": [
+												{
+													"type": "Show",
+													"caster": "All"
+												}
+											]
+										},
 										{
-											"type": "Show",
-											"caster": "All"
-										}
-									]
-								},
-								{
-									"name": "INV°T6 - Zhaitan",
-									"guids": [
-										"SYqaXO4k/41HJBCiEap4yw=="
-									],
-									"behaviors": [
+											"name": "INV°T5 - Nevermore 1",
+											"guids": [
+												"Cs1P2Zeb651MKnqIe417zg=="
+											],
+											"behaviors": [
+												{
+													"type": "Show",
+													"caster": "All"
+												}
+											]
+										},
 										{
-											"type": "Show",
-											"caster": "All"
-										}
-									]
-								},
-								{
-									"name": "INV°T6 - Zhaitan",
-									"guids": [
-										"stM8/f7B84pJIEUClYJCWw=="
-									],
-									"behaviors": [
+											"name": "INV°T6 - Nevermore 2",
+											"guids": [
+												"9Zp1WTED2aZHxldLdUNPQQ=="
+											],
+											"behaviors": [
+												{
+													"type": "Show",
+													"caster": "All"
+												}
+											]
+										},
 										{
-											"type": "Show",
-											"caster": "All"
-										}
-									]
-								},
-								{
-									"name": "INV°T6 - Zhaitan",
-									"guids": [
-										"aq2lgp3jT4ZMFDPYBvcy0Q=="
-									],
-									"behaviors": [
+											"name": "INV°T6 - Nevermore 3",
+											"guids": [
+												"7pby1AuPSYhPVW6bLS70DA=="
+											],
+											"behaviors": [
+												{
+													"type": "Show",
+													"caster": "All"
+												}
+											]
+										},
 										{
-											"type": "Show",
-											"caster": "All"
-										}
-									]
-								},
-								{
-									"name": "INV°T6 - Aurene's Scale",
-									"guids": [
-										"Hy0xmYWLX6xIXHz70FuHiA=="
-									],
-									"behaviors": [
+											"name": "INV°T6 - Pharus",
+											"guids": [
+												"piEwW01Z74dDFjm383kjcQ=="
+											],
+											"behaviors": [
+												{
+													"type": "Show",
+													"caster": "All"
+												}
+											]
+										},
 										{
-											"type": "Show",
-											"caster": "All"
-										}
-									]
-								},
-								{
-									"name": "INV°T6 - Mordremoth's Scale",
-									"guids": [
-										"fDj/DZSrGqNJwIUaNS7oQw=="
-									],
-									"behaviors": [
+											"name": "INV°T6 - Pharus Draw",
+											"guids": [
+												"kEabFyoLuaBNAJR9W6I0iw=="
+											],
+											"behaviors": [
+												{
+													"type": "Show",
+													"caster": "All"
+												}
+											]
+										},
 										{
-											"type": "Show",
-											"caster": "All"
-										}
-									]
-								},
-								{
-									"name": "INV°T6 - Primorduss Scale",
-									"guids": [
-										"3OvG6332XoFECfccIzGisg=="
-									],
-									"behaviors": [
+											"name": "INV°T6 - Primordus",
+											"guids": [
+												"JnhSGFGcbJBDgNLXYgvzpQ=="
+											],
+											"behaviors": [
+												{
+													"type": "Show",
+													"caster": "All"
+												}
+											]
+										},
 										{
-											"type": "Show",
-											"caster": "All"
-										}
-									]
-								},
-								{
-									"name": "INV°T6 - Soo Won's Scale",
-									"guids": [
-										"kxqhvel5K4tBgqDxPi1KBg=="
-									],
-									"behaviors": [
+											"name": "INV°T6 - Primorduss Scale",
+											"guids": [
+												"3OvG6332XoFECfccIzGisg=="
+											],
+											"behaviors": [
+												{
+													"type": "Show",
+													"caster": "All"
+												}
+											]
+										},
 										{
-											"type": "Show",
-											"caster": "All"
-										}
-									]
-								},
-								{
-									"name": "INV°T6 - Zhaitan's Scale",
-									"guids": [
-										"/4Ekv4+aVplABjS+FoPAGw=="
-									],
-									"behaviors": [
+											"name": "INV°T6 - Sharur 1",
+											"guids": [
+												"QFgGrqHcoIlAdw24yU5a3g=="
+											],
+											"behaviors": [
+												{
+													"type": "Show",
+													"caster": "All"
+												}
+											]
+										},
 										{
-											"type": "Show",
-											"caster": "All"
-										}
-									]
-								},
-								{
-									"name": "INV°T6 - Sharur",
-									"guids": [
-										"QFgGrqHcoIlAdw24yU5a3g=="
-									],
-									"behaviors": [
+											"name": "INV°T6 - Sharur 2",
+											"guids": [
+												"35iHChvaAo5J8+60oDaZVA=="
+											],
+											"behaviors": [
+												{
+													"type": "Show",
+													"caster": "All"
+												}
+											]
+										},
 										{
-											"type": "Show",
-											"caster": "All"
-										}
-									]
-								},
-								{
-									"name": "INV°T6 - Sharur",
-									"guids": [
-										"35iHChvaAo5J8+60oDaZVA=="
-									],
-									"behaviors": [
+											"name": "INV°T6 - Shooshadoo",
+											"guids": [
+												"vccFkz87m4tDZ0VMJ2756A=="
+											],
+											"behaviors": [
+												{
+													"type": "Show",
+													"caster": "All"
+												}
+											]
+										},
 										{
-											"type": "Show",
-											"caster": "All"
+											"name": "INV°T6 - Soo Won's Scale",
+											"guids": [
+												"kxqhvel5K4tBgqDxPi1KBg=="
+											],
+											"behaviors": [
+												{
+													"type": "Show",
+													"caster": "All"
+												}
+											]
+										},
+										{
+											"name": "INV°T6 - Zhaitan 1",
+											"guids": [
+												"SYqaXO4k/41HJBCiEap4yw=="
+											],
+											"behaviors": [
+												{
+													"type": "Show",
+													"caster": "All"
+												}
+											]
+										},
+										{
+											"name": "INV°T6 - Zhaitan 2",
+											"guids": [
+												"stM8/f7B84pJIEUClYJCWw=="
+											],
+											"behaviors": [
+												{
+													"type": "Show",
+													"caster": "All"
+												}
+											]
+										},
+										{
+											"name": "INV°T6 - Zhaitan 3",
+											"guids": [
+												"aq2lgp3jT4ZMFDPYBvcy0Q=="
+											],
+											"behaviors": [
+												{
+													"type": "Show",
+													"caster": "All"
+												}
+											]
+										},
+										{
+											"name": "INV°T6 - Zhaitan's Scale",
+											"guids": [
+												"/4Ekv4+aVplABjS+FoPAGw=="
+											],
+											"behaviors": [
+												{
+													"type": "Show",
+													"caster": "All"
+												}
+											]
 										}
 									]
 								}
@@ -51370,6 +52711,18 @@
 									"caster": "Others"
 								}
 							]
+						},
+						{
+							"name": "Env - Hearts - Event Bonus",
+							"guids": [
+								"LSSEZHvgSbVP0RuSOJlVCA=="
+							],
+							"behaviors": [
+								{
+									"type": "Hide",
+									"caster": "Others"
+								}
+							]
 						}
 					]
 				},
@@ -51415,6 +52768,9 @@
 					]
 				}
 			]
+		},
+		{
+			"name": "Custom"
 		}
 	]
 }

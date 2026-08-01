@@ -47,9 +47,9 @@ ___
 | 🔍 | Demonic Infusion | Body effect and trail|  |
 | 🔍 | Seer Transcendence Infusion | Body effect |  |
 | 🔍 | Strife Unending | T4 and T5 crossed swords |  |
-| 🔍 | Stella Radiens | Halo |  |
 | ❌ | Ranger Druid | Celestial Avatar 1 (Cosmic Ray) | Ray is cast by `"null"`, causing **Hide Others** to hide it because the source is not the player. |
 | ⚠️ | Ranger Druid | Celestial Avatar 5 (Natural Convergence) | Black hole effect on enemy. |
 | ⚠️ | Guardian Core | F1 – Flame of Justice | Blue flame effect on enemy. |
+| ⚠️ | Guardian Dragonhunter | F1 – Spear of Justice | Glow effect on enemy. |
 | ⚠️ | Necromancer Ritualist | Spirits | Green hit effects on enemy. |
 | ⚠️ | Sigil of Lightning | Proc Effect | Spark effects on enemy. |
